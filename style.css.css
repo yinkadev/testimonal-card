@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;;
+}
+
+body{
+  background-color: #edf2f8;
+font-family: 'Lucida Sans', 'Lucida Sans Regular',  'Lucida Sans Unicode',  Verdana, sans-serif;
+line-height: 1.7;
+font-size: 13px;
+}
+.container{
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+
+
+
+.card{
+  background-color:#fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(17,12, 46) 0px 48px 100px 0px;
+  margin-bottom: 20px;
+  
+}
+.card-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-header h3{
+  font-size: 15px;
+
+
+}
+
+
+
+.card-header p{
+  opacity: 50px;
+
+}
+.card-img{
+  width: 100px;
+  height: 90px;
+  border-radius: 50px;
+  border: 2px solid purple;
+  margin-right: 10px;
+}
+
+.card-lead{
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+
+
+.card-quote{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 70%;
+}
+
+.card-pink{
+  background-color: aqua;
+  color: white;
+  
+}
+
+
+.card-black{
+  background:purple;
+  color: #edf2f8;
+  
+}
+
+
+.card-blue{
+  background: pink;
+  color: white;
+}
+
+.card:nth-of-type(1){
+  grid-column: 1/3;
+}
+
+
+
+.card:nth-of-type(4){
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.card:nth-of-type(5){
+  grid-column: 4;
+  grid-row: 1/3;
+}
+
